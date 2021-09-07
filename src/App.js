@@ -35,7 +35,7 @@ export default function App() {
         setCurrentPage((prevState) => prevState + 1);
       })
       .finally(() => {
-        if (currentPage > 2) {
+        if (currentPage > 1) {
           window.scrollTo({
             top: document.documentElement.scrollHeight,
             behavior: "smooth",
