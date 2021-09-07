@@ -17,7 +17,6 @@ class ImageGalleryItem extends Component {
         <img
           onClick={(e) => {
             this.props.modalFn(e.target.attributes[2].value);
-            console.log(e);
           }}
           src={this.props.imageLink}
           alt={this.props.imageAlt}
