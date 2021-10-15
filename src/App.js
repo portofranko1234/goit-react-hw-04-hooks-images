@@ -54,7 +54,7 @@ export default function App() {
   };
   const loadMoreFn = () => {
     loaderToggle(true);
-    getImages(searchWords, currentPage);
+    getImages(searchWords, currentPage+1);
   };
   return (
     <div className="App">
